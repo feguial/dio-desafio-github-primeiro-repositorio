@@ -1,1 +1,53 @@
 O Git Bash é um terminal extendido para otimizar o uso do Git
+
+Comandos git:
+
+cd – change directory
+cd / - vai para a base do diretório c:
+cd nomedapasta – vai para a pasta
+	cd windows – vai para a pasta específica chamada windows
+cd .. - retrocede um nível na navegação
+cls – limpa a tela no windows
+clear/control l – limpa a tela no linux
+tab – completa automaticamente
+dir – lista as pastas sis windows
+ls – lista as pastas sis linux
+mkdir – cria pasta
+	mkdir nomedapasta
+del nomedapasta  - apaga todos os arquivos dentro da pasta no Windows
+rmdir nomedapasta /S /Q – apaga a pasta com tudo dentro no Windows
+rm -rf nomedapasta/ - apaga a pasta com tudo dentro no Linux
+echo hello – ele devolve para mim o que eu digitei
+echo hello > hello.txt – pega o hello que eu digitei e cria um arquivo txt com hello escrito nele
+echo > README.md – cria um arquivo tipo md chamado README.md
+git init – inicia repositorio
+git add – move o arquivo untracked para o staged
+	git add nomedoarquivo
+git add * - move tudo que foi modificado, que está no working directory para o staged
+git add . -
+git commit – move tudo que está staged para unmodified e popula o repositorio local
+		github é o repositório remoto
+git commit -m -
+	git commit -m “mensagem” 
+git push origin main - 
+git status- monitora o status do arquivo
+mkdir – cria pasta
+	mkdir nomedapasta 
+ls – lista o que está no folder
+ls -a – mostra pastas ocultas também
+mv - mover
+	mv strogonoff.md ./receitas/
+control l – limpa a tela
+clear – limpa a tela
+cd – entra no folder
+	cd nomedofolder
+cd .. - sobe um nível de pasta
+git rm – remove o arquivo
+começa a escrever e clica no tab, ele preenche o resto automaticamente
+git restore –staged nomedoarquivo…
+	– mover do staged para unstaged
+git remote add origins https://github.com/feguial/livroreceitas.git
+git push origin master
+	empurar a versão do nosso repositório local para repositorio remoto
+git remote -v
+	mostra para qual repositório aquela pasta está apontando
